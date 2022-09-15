@@ -1,5 +1,4 @@
-$primary-red: red;
-
-body {
-    background-color: $primary-red;
-}
+@import 'vars';
+@import 'header';
+@import 'utils';
+@import 'generals';
