@@ -10,10 +10,21 @@
 </head>
 <body>
 
-    @include('includes.header')
+    <div>
+        @include('includes.header')
+    </div>
 
 
-    @include('includes.footer')
+    <div>
+        @include('includes.main')
+    </div>
+
+    <div>
+        @include('includes.footer')
+    </div>
+
+
+
     
     
 </body>
