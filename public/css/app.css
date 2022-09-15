@@ -27,6 +27,13 @@ header li {
   font-weight: bold;
 }
 
+.jumbo {
+  height: 300px;
+  background-image: url("/images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer {
   height: 270px;
   background-color: white;
