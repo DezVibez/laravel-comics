@@ -16,7 +16,7 @@
 
 
     <div>
-        @include('includes.main')
+        @include('includes.mainhome')
     </div>
 
     <div>
