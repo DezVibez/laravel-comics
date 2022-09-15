@@ -1,3 +1,7 @@
+@php 
+$comics = config('comics')
+@endphp
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +17,11 @@
 
 
     @include('includes.header')
+
+    <div>
+
+
+    </div>
 
 
     @include('includes.footer')

@@ -1,5 +1,15 @@
+* {
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 header {
-  padding: 14px 0;
   background-color: white;
 }
 
@@ -51,14 +61,10 @@ header li {
 }
 
 .main .card-container .card {
-  width: 13%;
+  width: 15%;
   padding: 1rem;
   text-align: center;
   color: white;
-}
-
-.main .card-container .card img {
-  max-width: 100%;
 }
 
 footer {
@@ -103,9 +109,5 @@ footer .big-logo {
 
 .liste {
   display: flex;
-}
-
-* {
-  list-style-type: none;
 }
 
