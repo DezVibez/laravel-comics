@@ -17,15 +17,11 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/single/{$id}', function ($id) {
+Route::get('/single', function () {
 
     $comics = config('comics');
 
-    if(!is_numeric($id) || $id < 0 || $id >= count($comics)){
-        abort(404);
-    }
+    $comic = $comics[0];
 
-    $comic = $comics[$id];
-
-    return view('single', compact($comic));
+    return view('single' , compact('comic'));
 })->name('single');

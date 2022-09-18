@@ -18,11 +18,27 @@ $comics = config('comics')
 
     @include('includes.header')
 
-    <div>
+    <div class="comic-section">
 
-    
+        <div class="container">
+
+            @foreach ($comics as $comic)
+        
+                <div class="comic-card">
+                    
+                    <img src=" {{ asset($comic['thumb']) }} " alt="">
+        
+                </div>
+        
+            @endforeach
+                    
+        </div>
+        
+        
 
 
+
+ 
     </div>
 
 
