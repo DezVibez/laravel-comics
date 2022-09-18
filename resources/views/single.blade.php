@@ -1,6 +1,4 @@
-@php 
-$comics = config('comics')
-@endphp
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +20,7 @@ $comics = config('comics')
 
         <div class="container">
 
-            @foreach ($comics as $comic)
+            
         
                 <div class="comic-card">
                     
@@ -30,7 +28,7 @@ $comics = config('comics')
         
                 </div>
         
-            @endforeach
+           
                     
         </div>
         
