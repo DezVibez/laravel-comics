@@ -10,9 +10,9 @@ $comics = config('comics')
     <div class="container">
         
         <ul class="card-container">
-            @foreach($comics as $comic)
+            @foreach($comics as $index => $comic)
             <li class="card">  
-                <a href="{{ route( 'single' ) }}">
+                <a href="{{ route( 'single' , ['id' => $index ]) }}">
                     <img src="{{ asset($comic['thumb']) }}" alt="">
                 </a>  {{$comic['series']}} 
             </li>

@@ -22,11 +22,11 @@
 
             
         
-                <div class="comic-card">
+            <div class="comic-card">
                     
-                    <img src=" {{ asset($comic['thumb']) }} " alt="">
+                <img src=" {{ asset($comic['thumb']) }} " alt="">
         
-                </div>
+            </div>
         
            
                     
